@@ -1,7 +1,27 @@
-<!DOCTYPE html>
-<html lang="en">
-<body>
-    <h1 style="align-items: center;">PROJECT</h1>
-    <h2 style="align-items: center;">RekayasaPerangkatLunak</h2>
-</body>
-</html>
+
+
+### 1. Dokumen Spesifikasi Kebutuhan (SRS.xml)
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<software_requirements_specification>
+  <identification>
+    <title>Website Rekayasa Perangkat Lunak</title>
+    <version>1.0</version>
+    <date>2023-11-15</date>
+  </identification>
+  
+  <functional_requirements>
+    <requirement id="FR-01">
+      <description>Sistem harus menyediakan modul pembelajaran UML</description>
+      <priority>High</priority>
+      <use_case>UC-101</use_case>
+    </requirement>
+  </functional_requirements>
+  
+  <non_functional_requirements>
+    <requirement id="NFR-01">
+      <description>Waktu respon sistem maksimal 2 detik</description>
+      <type>Performance</type>
+    </requirement>
+  </non_functional_requirements>
+</software_requirements_specification>
