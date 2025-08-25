@@ -164,7 +164,7 @@
         }
 
         nav a:hover {
-            color: var(--primary-dark);
+            color: #ffd43b;
         }
 
       
