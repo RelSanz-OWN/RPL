@@ -184,7 +184,7 @@
 
         /* Hero Section */
         .hero {
-            background: linear-gradient(rgba(15, 23, 42, 0.85), rgba(15, 23, 42, 0.9)), url('https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1500') center/cover no-repeat;
+            background: linear-gradient(rgba(15, 32, 42, 0.85), rgba(15, 40, 42, 0.9)), url('https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1500') center/cover no-repeat;
             height: 100vh;
             display: flex;
             align-items: center;
@@ -688,7 +688,7 @@
                     <li class="dropdown">
                         <a href="#home">Tentang ▾</a>
                         <ul class="dropdown-content">
-                            <li><a href="#">Tentang Kami</a></li>
+                            <li><a href="{{ route('pages.tentangkami') }}">Tentang Kami</a></li>
                             <li><a href="#">Partner</a></li>
                             <li><a href="#">Tim Kami</a></li>
                             <li class="dropdown-sub">
