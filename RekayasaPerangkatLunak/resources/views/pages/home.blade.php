@@ -689,7 +689,7 @@
                         <a href="#home">Tentang ▾</a>
                         <ul class="dropdown-content">
                             <li><a href="{{ route('pages.tentangkami') }}">Tentang Kami</a></li>
-                            <li><a href="#">Partner</a></li>
+                            <li><a href="{{ route('pages.patner') }}">Partner</a></li>
                             <li><a href="#">Tim Kami</a></li>
                             <li class="dropdown-sub">
                                 <a href="#">Karir ▸</a>
