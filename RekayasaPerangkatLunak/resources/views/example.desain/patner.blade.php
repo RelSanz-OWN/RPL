@@ -179,32 +179,6 @@
             cursor: pointer;
         }
 
-        .view {
-            background-image: linear-gradient(rgba(15, 23, 42, 0.85), rgba(15, 23, 42, 0.9)), url('https://ids.ac.id/wp-content/uploads/2023/01/5-1024x576.jpg');
-            display: flex;
-            height: 58vh;
-            align-items: center;
-            padding-top: 70px;
-            color: white;
-        }
-
-        .view {
-            text-align: center;
-            justify-content: center;
-        }
-
-        .batas{
-            background: white;
-            display: flex;
-            height: 80vh;
-            align-items: center;
-
-        }
-
-
-
-
-
         @media (max-width: 768px) {
             .dropdown-submenu {
                 position: absolute;
